@@ -1,0 +1,13 @@
+.filter_text {
+  padding-bottom: 8px;
+  font-weight: bolder;
+}
+
+.filter_label {
+  display: flex;
+  flex-direction: column;
+}
+
+.filter_label > input {
+  width: 300px;
+}

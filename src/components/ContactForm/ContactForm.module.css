@@ -1,0 +1,42 @@
+.form {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+}
+
+.form label {
+  display: flex;
+  flex-direction: column;
+}
+
+input {
+  margin-bottom: 16px;
+  padding: 8px;
+  border: 1px solid #0080ff;
+  /* border-style: groove; */
+  border-radius: 4px;
+}
+
+input:focus-visible {
+  border: 1px solid green;
+}
+
+.labelText {
+  padding-bottom: 8px;
+  font-weight: bolder;
+}
+
+.btnAdd {
+  background-color: #d3d3d3;
+  border: 1px solid#0080ff;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 16px;
+  padding: 8px 12px;
+  width: 150px;
+}
+
+.btnAdd:hover,
+.btnAdd:focus {
+  background-color: #0080ff;
+}
